@@ -405,6 +405,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BGHS.EquationSolver2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -416,6 +417,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BGHS.EquationSolver2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -484,6 +486,7 @@
 				81A327331CE36D3400E0D751 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81A327341CE36D3400E0D751 /* Build configuration list for PBXNativeTarget "EquationSolver2Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +495,7 @@
 				81A327361CE36D3400E0D751 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81A327371CE36D3400E0D751 /* Build configuration list for PBXNativeTarget "EquationSolver2UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +504,7 @@
 				81A327391CE36D3400E0D751 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
