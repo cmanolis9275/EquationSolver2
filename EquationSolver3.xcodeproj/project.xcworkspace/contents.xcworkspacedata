@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:EquationSolver2.xcodeproj">
+      location = "self:/Users/cmanolis9275/Desktop/Programming/EquationSolver2/EquationSolver3.xcodeproj">
    </FileRef>
 </Workspace>
