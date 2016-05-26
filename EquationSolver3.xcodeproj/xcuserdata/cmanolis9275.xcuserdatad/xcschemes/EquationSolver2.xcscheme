@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "81A327081CE36D3300E0D751"
-               BuildableName = "EquationSolver2.app"
-               BlueprintName = "EquationSolver2"
-               ReferencedContainer = "container:EquationSolver2.xcodeproj">
+               BuildableName = "EquationSolver3.app"
+               BlueprintName = "EquationSolver3"
+               ReferencedContainer = "container:EquationSolver3.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "81A3271C1CE36D3300E0D751"
-               BuildableName = "EquationSolver2Tests.xctest"
-               BlueprintName = "EquationSolver2Tests"
-               ReferencedContainer = "container:EquationSolver2.xcodeproj">
+               BuildableName = "EquationSolver3.xctest"
+               BlueprintName = "EquationSolver3Tests"
+               ReferencedContainer = "container:EquationSolver3.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "81A327271CE36D3400E0D751"
-               BuildableName = "EquationSolver2UITests.xctest"
-               BlueprintName = "EquationSolver2UITests"
-               ReferencedContainer = "container:EquationSolver2.xcodeproj">
+               BuildableName = "EquationSolver3.xctest"
+               BlueprintName = "EquationSolver3UITests"
+               ReferencedContainer = "container:EquationSolver3.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "81A327081CE36D3300E0D751"
-            BuildableName = "EquationSolver2.app"
-            BlueprintName = "EquationSolver2"
-            ReferencedContainer = "container:EquationSolver2.xcodeproj">
+            BuildableName = "EquationSolver3.app"
+            BlueprintName = "EquationSolver3"
+            ReferencedContainer = "container:EquationSolver3.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "81A327081CE36D3300E0D751"
-            BuildableName = "EquationSolver2.app"
-            BlueprintName = "EquationSolver2"
-            ReferencedContainer = "container:EquationSolver2.xcodeproj">
+            BuildableName = "EquationSolver3.app"
+            BlueprintName = "EquationSolver3"
+            ReferencedContainer = "container:EquationSolver3.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "81A327081CE36D3300E0D751"
-            BuildableName = "EquationSolver2.app"
-            BlueprintName = "EquationSolver2"
-            ReferencedContainer = "container:EquationSolver2.xcodeproj">
+            BuildableName = "EquationSolver3.app"
+            BlueprintName = "EquationSolver3"
+            ReferencedContainer = "container:EquationSolver3.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
