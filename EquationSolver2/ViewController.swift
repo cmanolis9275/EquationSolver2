@@ -52,7 +52,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         super.viewDidLoad()
         subjects = ["Algebra I", "Algebra II", "Geometry", "Pre-Calculus"]
         equations = ["Power", "Power Within a Power", "Diference of two squares", "Standard formula"]
-        equations2 = ["Agebra II_1", "Algebra II_2", "Algebra II_3",]
+        equations2 = ["Pythagorean Theorem", "Slope", "Distance Formula", "Point-Slope Form"]
         geometry = ["Square", "Rectangle", "Parallelogram", "Trapezoid", "Circle", "Eslipse", "Triangle",]
         preCalc = ["Pre-Calculus_1", "Pre-Calculus_2", "Pre-Calculus_3"]
         currentEquationSet = equations
@@ -246,6 +246,87 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         else if pickerView.tag == 2 && currentEquationSet == equations2
         {
 
+            if row == 0
+            {
+                equationLabel.text = "a^2 + b^2 = c^2"
+                currentEquation = "Pythagoream Theorem"
+                xLabel.hidden = true
+                xTextField.hidden = true
+                yLabel.hidden = true
+                yTextField.hidden = true
+                zLabel.hidden = true
+                zTextField.hidden = true
+                aTextField.hidden = false
+                aLabel.hidden = false
+                bLabel.hidden = false
+                bTextField.hidden = false
+                cLabel.hidden = false
+                cTextField.hidden = false
+                setButton.hidden = false
+
+            }
+            else if row == 1
+            {
+                equationLabel.text = "m = (y2 - y1)/(x2 - x1)"
+                currentEquation = "Slope"
+                xLabel.hidden = false
+                xTextField.hidden = false
+                yLabel.hidden = false
+                yTextField.hidden = false
+                zLabel.hidden = true
+                zTextField.hidden = true
+                aTextField.hidden = false
+                bLabel.hidden = false
+                bTextField.hidden = false
+                cLabel.hidden = true
+                cTextField.hidden = true
+                setButton.hidden = false
+                aLabel.hidden = false
+                bLabel.text = "Y2 = "
+                aLabel.text = "X2 = "
+            }
+            else if row == 2
+            {
+                equationLabel.text = "D = √((X2 - X1)^2 + (Y2 - Y1)^2)"
+                currentEquation = "Distance formula"
+                xLabel.hidden = false
+                xTextField.hidden = false
+                yLabel.hidden = false
+                yTextField.hidden = false
+                zLabel.hidden = true
+                zTextField.hidden = true
+                aTextField.hidden = false
+                bLabel.hidden = false
+                bTextField.hidden = false
+                cLabel.hidden = true
+                cTextField.hidden = true
+                setButton.hidden = false
+                aLabel.hidden = false
+                bLabel.text = "Y2 = "
+                aLabel.text = "X2 = "
+            }
+            else if row == 3
+            {
+                equationLabel.text = "Y - Y1 = M(X - X1)"
+                currentEquation = "Pont-Slope Form"
+                xLabel.hidden = false
+                xTextField.hidden = false
+                yLabel.hidden = false
+                yTextField.hidden = false
+                zLabel.hidden = true
+                zTextField.hidden = true
+                aTextField.hidden = false
+                bLabel.hidden = false
+                bTextField.hidden = false
+                cLabel.hidden = true
+                cTextField.hidden = true
+                setButton.hidden = false
+                aLabel.hidden = false
+                bLabel.text = "Y1 = "
+                aLabel.text = "X1 = "
+            }
+            
+            
         }
         else if pickerView.tag == 2 && currentEquationSet == geometry
         {
@@ -426,6 +507,19 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
             }
             else if currentEquationSet == equations2
             {
+                if currentEquation == "Pythagoream Theorem"
+                {
+                    finalEquationLabel.text = "\(aTextField.text!)^2 + \(bTextField.text!)^2 = \(cTextField.text!)^2"
+                }
+                else if currentEquation == "Slope"
+                {
+                    finalEquationLabel.text = "M = (\(bTextField.text!) - \(yTextField.text!))/(\(aTextField.text!) - \(xTextField.text!))"
+                }
+                else if currentEquation == "Distance Formula"
+                {
+                    finalEquationLabel.text = "D = √((\(aTextField.text!) - \(xTextField.text!))^2 + (\(bTextField.text!) - \(yTextField.text))^2)"
+                }
+
                 
             }
             else if currentEquationSet == geometry
@@ -522,11 +616,39 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
                 resultLabel.text = result
             }
         }
-//        if currentEquationSet == equations2
-//        {
-//            
-//            
-//        }
+        if currentEquationSet == equations2
+        {
+            if currentEquation == "Pythagoream Theorem"
+            {
+                let asqrt = pow(Double(a), 2)
+                let bsqrt = pow(Double(b), 2)
+                let csqrt = pow(Double(c), 2)
+                let result = asqrt - bsqrt
+                resultLabel.text = "\(result)"
+            }
+            else if currentEquation == "Slope"
+            {
+                 let result = (b - y)/(a - x)
+                 resultLabel.text = "\(result)"
+            }
+            else if currentEquation == "Distance Formula"
+            {
+
+                let part1 = a + x
+                let part2 = b - y
+                let part1sqrt = pow(Double(part1), 2)
+                let part2sqrt = pow(Double(part2), 2)
+                let tempFinal = part1sqrt + part2sqrt
+                let result = sqrt(Double(tempFinal))
+
+            }
+            else if currentEquation == "Point-Slope Form"
+            {
+                
+            }
+            
+            
+        }
         if currentEquationSet == geometry
         {
             if currentEquation == "Area of a square"
