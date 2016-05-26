@@ -2,6 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
+<<<<<<< HEAD:EquationSolver3.xcodeproj/project.xcworkspace/contents.xcworkspacedata
       location = "self:/Users/cmanolis9275/Desktop/Programming/EquationSolver2/EquationSolver3.xcodeproj">
+=======
+      location = "self:">
+>>>>>>> master:EquationSolver2.xcodeproj/project.xcworkspace/contents.xcworkspacedata
    </FileRef>
 </Workspace>
