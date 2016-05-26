@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		81A327091CE36D3300E0D751 /* EquationSolver3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EquationSolver3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A327091CE36D3300E0D751 /* EquationSolver2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EquationSolver2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A3270C1CE36D3300E0D751 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81A3270E1CE36D3300E0D751 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		81A327111CE36D3300E0D751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81A327131CE36D3300E0D751 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81A327161CE36D3300E0D751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81A327181CE36D3300E0D751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81A3271D1CE36D3300E0D751 /* EquationSolver3.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EquationSolver3.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A3271D1CE36D3300E0D751 /* EquationSolver2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EquationSolver2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A327211CE36D3400E0D751 /* EquationSolver2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquationSolver2Tests.swift; sourceTree = "<group>"; };
 		81A327231CE36D3400E0D751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81A327281CE36D3400E0D751 /* EquationSolver3.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EquationSolver3.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A327281CE36D3400E0D751 /* EquationSolver2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EquationSolver2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A3272C1CE36D3400E0D751 /* EquationSolver2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquationSolver2UITests.swift; sourceTree = "<group>"; };
 		81A3272E1CE36D3400E0D751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		81A3270A1CE36D3300E0D751 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81A327091CE36D3300E0D751 /* EquationSolver3.app */,
-				81A3271D1CE36D3300E0D751 /* EquationSolver3.xctest */,
-				81A327281CE36D3400E0D751 /* EquationSolver3.xctest */,
+				81A327091CE36D3300E0D751 /* EquationSolver2.app */,
+				81A3271D1CE36D3300E0D751 /* EquationSolver2Tests.xctest */,
+				81A327281CE36D3400E0D751 /* EquationSolver2UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		81A327081CE36D3300E0D751 /* EquationSolver3 */ = {
+		81A327081CE36D3300E0D751 /* EquationSolver2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81A327311CE36D3400E0D751 /* Build configuration list for PBXNativeTarget "EquationSolver3" */;
+			buildConfigurationList = 81A327311CE36D3400E0D751 /* Build configuration list for PBXNativeTarget "EquationSolver2" */;
 			buildPhases = (
 				81A327051CE36D3300E0D751 /* Sources */,
 				81A327061CE36D3300E0D751 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = EquationSolver3;
+			name = EquationSolver2;
 			productName = EquationSolver2;
-			productReference = 81A327091CE36D3300E0D751 /* EquationSolver3.app */;
+			productReference = 81A327091CE36D3300E0D751 /* EquationSolver2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		81A3271C1CE36D3300E0D751 /* EquationSolver3Tests */ = {
+		81A3271C1CE36D3300E0D751 /* EquationSolver2Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81A327341CE36D3400E0D751 /* Build configuration list for PBXNativeTarget "EquationSolver3Tests" */;
+			buildConfigurationList = 81A327341CE36D3400E0D751 /* Build configuration list for PBXNativeTarget "EquationSolver2Tests" */;
 			buildPhases = (
 				81A327191CE36D3300E0D751 /* Sources */,
 				81A3271A1CE36D3300E0D751 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				81A3271F1CE36D3300E0D751 /* PBXTargetDependency */,
 			);
-			name = EquationSolver3Tests;
+			name = EquationSolver2Tests;
 			productName = EquationSolver2Tests;
-			productReference = 81A3271D1CE36D3300E0D751 /* EquationSolver3.xctest */;
+			productReference = 81A3271D1CE36D3300E0D751 /* EquationSolver2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		81A327271CE36D3400E0D751 /* EquationSolver3UITests */ = {
+		81A327271CE36D3400E0D751 /* EquationSolver2UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81A327371CE36D3400E0D751 /* Build configuration list for PBXNativeTarget "EquationSolver3UITests" */;
+			buildConfigurationList = 81A327371CE36D3400E0D751 /* Build configuration list for PBXNativeTarget "EquationSolver2UITests" */;
 			buildPhases = (
 				81A327241CE36D3400E0D751 /* Sources */,
 				81A327251CE36D3400E0D751 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				81A3272A1CE36D3400E0D751 /* PBXTargetDependency */,
 			);
-			name = EquationSolver3UITests;
+			name = EquationSolver2UITests;
 			productName = EquationSolver2UITests;
-			productReference = 81A327281CE36D3400E0D751 /* EquationSolver3.xctest */;
+			productReference = 81A327281CE36D3400E0D751 /* EquationSolver2UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 81A327041CE36D3300E0D751 /* Build configuration list for PBXProject "EquationSolver3" */;
+			buildConfigurationList = 81A327041CE36D3300E0D751 /* Build configuration list for PBXProject "EquationSolver2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81A327081CE36D3300E0D751 /* EquationSolver3 */,
-				81A3271C1CE36D3300E0D751 /* EquationSolver3Tests */,
-				81A327271CE36D3400E0D751 /* EquationSolver3UITests */,
+				81A327081CE36D3300E0D751 /* EquationSolver2 */,
+				81A3271C1CE36D3300E0D751 /* EquationSolver2Tests */,
+				81A327271CE36D3400E0D751 /* EquationSolver2UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		81A3271F1CE36D3300E0D751 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 81A327081CE36D3300E0D751 /* EquationSolver3 */;
+			target = 81A327081CE36D3300E0D751 /* EquationSolver2 */;
 			targetProxy = 81A3271E1CE36D3300E0D751 /* PBXContainerItemProxy */;
 		};
 		81A3272A1CE36D3400E0D751 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 81A327081CE36D3300E0D751 /* EquationSolver3 */;
+			target = 81A327081CE36D3300E0D751 /* EquationSolver2 */;
 			targetProxy = 81A327291CE36D3400E0D751 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -404,7 +404,7 @@
 				INFOPLIST_FILE = EquationSolver2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BGHS.EquationSolver2;
-				PRODUCT_NAME = EquationSolver3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -416,7 +416,7 @@
 				INFOPLIST_FILE = EquationSolver2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BGHS.EquationSolver2;
-				PRODUCT_NAME = EquationSolver3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
@@ -428,8 +428,8 @@
 				INFOPLIST_FILE = EquationSolver2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BGHS.EquationSolver2Tests;
-				PRODUCT_NAME = EquationSolver3;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EquationSolver3.app/EquationSolver3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EquationSolver2.app/EquationSolver2";
 			};
 			name = Debug;
 		};
@@ -440,8 +440,8 @@
 				INFOPLIST_FILE = EquationSolver2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BGHS.EquationSolver2Tests;
-				PRODUCT_NAME = EquationSolver3;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EquationSolver3.app/EquationSolver3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EquationSolver2.app/EquationSolver2";
 			};
 			name = Release;
 		};
@@ -451,7 +451,7 @@
 				INFOPLIST_FILE = EquationSolver2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BGHS.EquationSolver2UITests;
-				PRODUCT_NAME = EquationSolver3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = EquationSolver2;
 			};
 			name = Debug;
@@ -462,7 +462,7 @@
 				INFOPLIST_FILE = EquationSolver2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BGHS.EquationSolver2UITests;
-				PRODUCT_NAME = EquationSolver3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = EquationSolver2;
 			};
 			name = Release;
@@ -470,7 +470,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		81A327041CE36D3300E0D751 /* Build configuration list for PBXProject "EquationSolver3" */ = {
+		81A327041CE36D3300E0D751 /* Build configuration list for PBXProject "EquationSolver2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81A3272F1CE36D3400E0D751 /* Debug */,
@@ -479,7 +479,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81A327311CE36D3400E0D751 /* Build configuration list for PBXNativeTarget "EquationSolver3" */ = {
+		81A327311CE36D3400E0D751 /* Build configuration list for PBXNativeTarget "EquationSolver2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81A327321CE36D3400E0D751 /* Debug */,
@@ -488,7 +488,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81A327341CE36D3400E0D751 /* Build configuration list for PBXNativeTarget "EquationSolver3Tests" */ = {
+		81A327341CE36D3400E0D751 /* Build configuration list for PBXNativeTarget "EquationSolver2Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81A327351CE36D3400E0D751 /* Debug */,
@@ -497,7 +497,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81A327371CE36D3400E0D751 /* Build configuration list for PBXNativeTarget "EquationSolver3UITests" */ = {
+		81A327371CE36D3400E0D751 /* Build configuration list for PBXNativeTarget "EquationSolver2UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81A327381CE36D3400E0D751 /* Debug */,
