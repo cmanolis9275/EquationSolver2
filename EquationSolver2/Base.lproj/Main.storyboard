@@ -45,16 +45,6 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="kMB-fr-ibx"/>
                                 </connections>
                             </pickerView>
-                            <pickerView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w3h-3g-Jqo">
-                                <rect key="frame" x="0.0" y="142" width="600" height="216"/>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="30" width="294" height="189"/>
-                                </variation>
-                                <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="BbO-LB-0IO"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ioo-6a-Me1"/>
-                                </connections>
-                            </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X = " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ri2-YL-Sxs">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <constraints>
@@ -324,6 +314,16 @@
                                     <action selector="setX:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JPj-Hm-iJ5"/>
                                 </connections>
                             </button>
+                            <pickerView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w3h-3g-Jqo">
+                                <rect key="frame" x="0.0" y="142" width="600" height="216"/>
+                                <variation key="heightClass=regular" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="77" width="294" height="189"/>
+                                </variation>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="BbO-LB-0IO"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ioo-6a-Me1"/>
+                                </connections>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>

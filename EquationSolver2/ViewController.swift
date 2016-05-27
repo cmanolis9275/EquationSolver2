@@ -640,11 +640,18 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
                 let part2sqrt = pow(Double(part2), 2)
                 let tempFinal = part1sqrt + part2sqrt
                 let result = sqrt(Double(tempFinal))
+                resultLabel.text = "\(result)"
+
 
             }
-            else if currentEquation == "Point-Slope Form"
+            else if currentEquation == "Slope"
             {
-                
+                let part1 = b - y
+                let part2 = a - x
+                let result  = part1 / part2
+                print("\(result)")
+                resultLabel.text = "\(result)"
+
             }
             
             
